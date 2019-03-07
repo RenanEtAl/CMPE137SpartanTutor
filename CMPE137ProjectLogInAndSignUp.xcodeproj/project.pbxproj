@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2329A544222F6A57001E9DA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2329A543222F6A56001E9DA4 /* GoogleService-Info.plist */; };
+		23D4E125222F60710034C4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4E124222F60710034C4E2 /* AppDelegate.swift */; };
+		23D4E12A222F60710034C4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D4E128222F60710034C4E2 /* Main.storyboard */; };
+		23D4E12C222F60770034C4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D4E12B222F60770034C4E2 /* Assets.xcassets */; };
+		23D4E12F222F60770034C4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D4E12D222F60770034C4E2 /* LaunchScreen.storyboard */; };
+		23D4E137222F60BA0034C4E2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4E136222F60BA0034C4E2 /* LoginController.swift */; };
+		23D4E139222F61020034C4E2 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4E138222F61020034C4E2 /* SignupController.swift */; };
+		23D4E13B222F612B0034C4E2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4E13A222F612B0034C4E2 /* HomeController.swift */; };
+		23D4E13D222F61460034C4E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4E13C222F61460034C4E2 /* Extensions.swift */; };
+		E3F33E76055F0B49509602F5 /* Pods_CMPE137ProjectLogInAndSignUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB035668E8C6211943330155 /* Pods_CMPE137ProjectLogInAndSignUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2329A543222F6A56001E9DA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23D4E121222F60710034C4E2 /* CMPE137ProjectLogInAndSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMPE137ProjectLogInAndSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D4E124222F60710034C4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23D4E129222F60710034C4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23D4E12B222F60770034C4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23D4E12E222F60770034C4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23D4E130222F60770034C4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D4E136222F60BA0034C4E2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		23D4E138222F61020034C4E2 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		23D4E13A222F612B0034C4E2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		23D4E13C222F61460034C4E2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		65EE59DF77D07F54F3F9AF1E /* Pods-CMPE137ProjectLogInAndSignUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMPE137ProjectLogInAndSignUp.debug.xcconfig"; path = "Target Support Files/Pods-CMPE137ProjectLogInAndSignUp/Pods-CMPE137ProjectLogInAndSignUp.debug.xcconfig"; sourceTree = "<group>"; };
+		FB035668E8C6211943330155 /* Pods_CMPE137ProjectLogInAndSignUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMPE137ProjectLogInAndSignUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEA476BB54910CC3E1E2951 /* Pods-CMPE137ProjectLogInAndSignUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMPE137ProjectLogInAndSignUp.release.xcconfig"; path = "Target Support Files/Pods-CMPE137ProjectLogInAndSignUp/Pods-CMPE137ProjectLogInAndSignUp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D4E11E222F60700034C4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F33E76055F0B49509602F5 /* Pods_CMPE137ProjectLogInAndSignUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11860AF89C188FE2FA90B041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB035668E8C6211943330155 /* Pods_CMPE137ProjectLogInAndSignUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23D4E118222F60700034C4E2 = {
+			isa = PBXGroup;
+			children = (
+				23D4E123222F60710034C4E2 /* CMPE137ProjectLogInAndSignUp */,
+				23D4E122222F60710034C4E2 /* Products */,
+				A3E2BE706FC0E2370D68948C /* Pods */,
+				11860AF89C188FE2FA90B041 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23D4E122222F60710034C4E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D4E121222F60710034C4E2 /* CMPE137ProjectLogInAndSignUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D4E123222F60710034C4E2 /* CMPE137ProjectLogInAndSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2329A543222F6A56001E9DA4 /* GoogleService-Info.plist */,
+				23D4E124222F60710034C4E2 /* AppDelegate.swift */,
+				23D4E128222F60710034C4E2 /* Main.storyboard */,
+				23D4E12B222F60770034C4E2 /* Assets.xcassets */,
+				23D4E12D222F60770034C4E2 /* LaunchScreen.storyboard */,
+				23D4E130222F60770034C4E2 /* Info.plist */,
+				23D4E136222F60BA0034C4E2 /* LoginController.swift */,
+				23D4E138222F61020034C4E2 /* SignupController.swift */,
+				23D4E13A222F612B0034C4E2 /* HomeController.swift */,
+				23D4E13C222F61460034C4E2 /* Extensions.swift */,
+			);
+			path = CMPE137ProjectLogInAndSignUp;
+			sourceTree = "<group>";
+		};
+		A3E2BE706FC0E2370D68948C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65EE59DF77D07F54F3F9AF1E /* Pods-CMPE137ProjectLogInAndSignUp.debug.xcconfig */,
+				FEEA476BB54910CC3E1E2951 /* Pods-CMPE137ProjectLogInAndSignUp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D4E120222F60700034C4E2 /* CMPE137ProjectLogInAndSignUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D4E133222F60770034C4E2 /* Build configuration list for PBXNativeTarget "CMPE137ProjectLogInAndSignUp" */;
+			buildPhases = (
+				7D65D39CB51733A8BD6E0868 /* [CP] Check Pods Manifest.lock */,
+				23D4E11D222F60700034C4E2 /* Sources */,
+				23D4E11E222F60700034C4E2 /* Frameworks */,
+				23D4E11F222F60700034C4E2 /* Resources */,
+				055C016901D37D6A6E3B6BE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMPE137ProjectLogInAndSignUp;
+			productName = CMPE137ProjectLogInAndSignUp;
+			productReference = 23D4E121222F60710034C4E2 /* CMPE137ProjectLogInAndSignUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23D4E119222F60700034C4E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = cmpe137;
+				TargetAttributes = {
+					23D4E120222F60700034C4E2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 23D4E11C222F60700034C4E2 /* Build configuration list for PBXProject "CMPE137ProjectLogInAndSignUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23D4E118222F60700034C4E2;
+			productRefGroup = 23D4E122222F60710034C4E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D4E120222F60700034C4E2 /* CMPE137ProjectLogInAndSignUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D4E11F222F60700034C4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D4E12F222F60770034C4E2 /* LaunchScreen.storyboard in Resources */,
+				2329A544222F6A57001E9DA4 /* GoogleService-Info.plist in Resources */,
+				23D4E12C222F60770034C4E2 /* Assets.xcassets in Resources */,
+				23D4E12A222F60710034C4E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		055C016901D37D6A6E3B6BE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CMPE137ProjectLogInAndSignUp/Pods-CMPE137ProjectLogInAndSignUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CMPE137ProjectLogInAndSignUp/Pods-CMPE137ProjectLogInAndSignUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D65D39CB51733A8BD6E0868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CMPE137ProjectLogInAndSignUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D4E11D222F60700034C4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D4E13D222F61460034C4E2 /* Extensions.swift in Sources */,
+				23D4E13B222F612B0034C4E2 /* HomeController.swift in Sources */,
+				23D4E139222F61020034C4E2 /* SignupController.swift in Sources */,
+				23D4E137222F60BA0034C4E2 /* LoginController.swift in Sources */,
+				23D4E125222F60710034C4E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23D4E128222F60710034C4E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D4E129222F60710034C4E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23D4E12D222F60770034C4E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D4E12E222F60770034C4E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23D4E131222F60770034C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23D4E132222F60770034C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23D4E134222F60770034C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65EE59DF77D07F54F3F9AF1E /* Pods-CMPE137ProjectLogInAndSignUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = CMPE137ProjectLogInAndSignUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ren.tanola.CMPE137ProjectLogInAndSignUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23D4E135222F60770034C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEA476BB54910CC3E1E2951 /* Pods-CMPE137ProjectLogInAndSignUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = CMPE137ProjectLogInAndSignUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ren.tanola.CMPE137ProjectLogInAndSignUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D4E11C222F60700034C4E2 /* Build configuration list for PBXProject "CMPE137ProjectLogInAndSignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D4E131222F60770034C4E2 /* Debug */,
+				23D4E132222F60770034C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D4E133222F60770034C4E2 /* Build configuration list for PBXNativeTarget "CMPE137ProjectLogInAndSignUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D4E134222F60770034C4E2 /* Debug */,
+				23D4E135222F60770034C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23D4E119222F60700034C4E2 /* Project object */;
+}
